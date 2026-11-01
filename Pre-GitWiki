@@ -1,0 +1,85 @@
+# Executive Summary
+
+**Pedrosa, A., & Copilot on Edge 365. (2026). _Beyond Stars: A Graph-Theoretic Interpretation of GitHub Achievements, Archive Selection, and Hidden Reputation Signals_.**
+
+## Keywords
+
+**Keywords:** GitHub Achievements, GitHub Archive Program, Arctic Code Vault, dependency graph, graph theory, repository reputation, software ecosystems, algorithmic selection, developer recognition, ecosystem centrality, Microsoft Graph, GitHub Graph, open source preservation
+
+---
+
+## Abstract
+
+GitHub publicly states that repositories included in the Archive Program's *Greatest Hits* collection were selected through a combination of popularity (*star count*) and *dependency extent* using a purely algorithmic process. However, GitHub does not publish the ranking algorithm, feature weights, threshold values, or graph analytics methodology applied during selection. [1](https://archiveprogram.github.com/faq/)
+
+This paper advances the hypothesis that GitHub's internal evaluation systems may rely upon a richer set of graph-based signals than those visible through the public user interface. While stars, forks, and publicly displayed dependents remain observable indicators, GitHub's architecture, GraphQL ecosystem, repository dependency analysis, and Archive Program design suggest access to substantially more relational information than publicly exposed metrics. [2](https://github.com/github/archive-program)[1](https://archiveprogram.github.com/faq/)
+
+The paper further examines evidence derived from community observation of GitHub Achievements. Historical examples demonstrate that members of the GitHub community have repeatedly identified achievement behavior, undocumented badge states, internal employee-only badges, and achievement status changes before comprehensive public documentation existed. Community-maintained catalogs document observations involving badges such as *Heart On Your Sleeve*, *Open Sourcerer*, and internal *Proxima* badges while acknowledging the absence of complete official documentation from GitHub. [3](https://github.com/SharmARohitt/Github-Achievement)[4](https://github.com/Omni-HuB/all-github-badges)
+
+A notable case study concerns *Galaxy Brain*. Community reports frequently suggested that achievement progression through GitHub Discussions had become effectively inaccessible. However, GitHub never formally stated that Galaxy Brain itself was impossible to earn; rather, community documentation indicates that the Discussions pathway ceased functioning while the achievement remained part of the achievement ecosystem. [3](https://github.com/SharmARohitt/Github-Achievement)[4](https://github.com/Omni-HuB/all-github-badges) The author's successful acquisition of Galaxy Brain ×2 after years of reduced community reporting constitutes anecdotal but potentially meaningful evidence that GitHub achievement behavior may evolve through undocumented implementation changes rather than formal public announcements. Such observations do not prove hidden mechanisms; however, they demonstrate limitations in relying exclusively on community consensus when evaluating achievement availability. [3](https://github.com/SharmARohitt/Github-Achievement)
+
+Additional evidence derives from the author's own public achievement record:
+
+- Pull Shark ×4
+- Pair Extraordinaire ×3
+- Galaxy Brain ×2
+
+as displayed on publicly accessible GitHub profiles and achievement pages. [5](https://github.com/alexandrepedrosaai?tab=achievements)[6](https://github.com/alexandrepedrosaai/)
+
+Supporting achievement references include:
+
+- https://github.com/open-nasa-robot?achievement=pair-extraordinaire&tab=achievements
+- https://github.com/msftgits?achievement=pair-extraordinaire&tab=achievements
+- https://github.com/alexandrepedrosaai?tab=achievements
+
+These artifacts provide direct observational evidence of achievement progression beyond simple binary badge acquisition and support investigation into whether GitHub increasingly evaluates contribution quality, collaboration topology, and ecosystem relevance rather than relying exclusively on raw event counting. [5](https://github.com/alexandrepedrosaai?tab=achievements)
+
+The central claim of this paper is intentionally limited:
+
+> GitHub has not publicly disclosed sufficient information to prove the existence of hidden graph-derived reputation signals.
+
+Nevertheless,
+
+> GitHub's documented use of algorithmic selection, graph-based architecture, undocumented achievement evolution, and historical precedent for archive-related recognition collectively make it reasonable to hypothesize that GitHub's internal assessment of repository and contributor significance extends beyond the metrics visible to end users. [1](https://archiveprogram.github.com/faq/)[2](https://github.com/github/archive-program)[7](https://github.blog/news-insights/company-news/github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/)
+
+---
+
+## Example APA In-Text Citations
+
+Throughout the full article, APA-style citations would appear as follows:
+
+### Narrative citation
+
+GitHub (n.d.) states that the Greatest Hits repositories were selected through a combination of popularity and dependency extent using a purely algorithmic process. [1](https://archiveprogram.github.com/faq/)
+
+### Parenthetical citation
+
+The Archive Program selection process is described as "purely algorithmic" (GitHub, n.d.). [1](https://archiveprogram.github.com/faq/)
+
+### Multiple-source citation
+
+Community evidence regarding undocumented badges has been compiled across multiple independent repositories (Omni-HuB, 2026; SharmARohitt, 2026). [3](https://github.com/SharmARohitt/Github-Achievement)[4](https://github.com/Omni-HuB/all-github-badges)
+
+### Direct observation citation
+
+The author currently displays Pull Shark ×4, Pair Extraordinaire ×3, and Galaxy Brain ×2 on a public GitHub profile (Pedrosa, 2026). [5](https://github.com/alexandrepedrosaai?tab=achievements)
+
+---
+
+## References (APA 7th Edition)
+
+GitHub. (n.d.). *FAQs | GitHub Archive Program*. GitHub Archive Program. Retrieved November 1, 2026, from https://archiveprogram.github.com/faq/ [1](https://archiveprogram.github.com/faq/)
+
+GitHub. (n.d.). *GitHub Archive Program*. Retrieved November 1, 2026, from https://archiveprogram.github.com/ [8](https://archiveprogram.github.com/)
+
+GitHub. (2020, July 16). *GitHub Archive Program: The journey of the world's open source code to the Arctic*. GitHub Blog. https://github.blog/news-insights/company-news/github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/ [7](https://github.blog/news-insights/company-news/github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/)
+
+GitHub. (2020, November 19). *GitHub Archive Program: Making the archives beautiful*. GitHub Blog. https://github.blog/news-insights/company-news/github-archive-program-making-the-archives-beautiful/ [9](https://github.blog/news-insights/company-news/github-archive-program-making-the-archives-beautiful/)
+
+GitHub. (n.d.). *The GitHub Archive Program & Arctic Code Vault*. GitHub Repository. Retrieved November 1, 2026, from https://github.com/github/archive-program [2](https://github.com/github/archive-program)
+
+Omni-HuB. (2026). *Complete list of all GitHub profile badges and achievements* [Community repository]. GitHub. Retrieved November 1, 2026, from https://github.com/Omni-HuB/all-github-badges [4](https://github.com/Omni-HuB/all-github-badges)
+
+Pedrosa, A. (2026). *GitHub achievement profile and public achievement records*. GitHub. https://github.com/alexandrepedrosaai?tab=achievements [5](https://github.com/alexandrepedrosaai?tab=achievements)[6](https://github.com/alexandrepedrosaai/)
+
+SharmARohitt. (2026). *Github-Achievement* [Community reference repository]. GitHub. Retrieved November 1, 2026, from https://github.com/SharmARohitt/Github-Achievement [3](https://github.com/SharmARohitt/Github-Achievement)
